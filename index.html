@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TimeStyle | Premium Watches</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<header class="header">
+  <a class="brand" href="#home"><span class="brand-icon">◷</span><span><b>Pranith Time<span>Style</span></b><small>Luxury Watches</small></span></a>
+  <button class="menu" id="menu" aria-label="Open navigation">☰</button>
+  <nav id="nav"><a class="active" href="#home">Home</a><a href="#about">About</a><a href="#contact">Contact</a><a href="https://www.instagram.com/bicky_nani_021/" target="_blank" rel="noopener">◎ bicky_nani_021</a><a href="#login">♙ Login</a><a class="nav-cta" href="#booking">▣ Booking</a></nav>
+</header>
+<main>
+<section class="hero" id="home">
+  <div class="hero-bg-glow"></div>
+  <div class="hero-copy">
+    <p class="eyebrow"><i></i> PREMIUM LUXURY WATCHES</p>
+    <h1>More Than Just a Watch<br><em>It's a Lifestyle</em></h1>
+    <p class="intro">Discover our exclusive collection of premium watches that combine timeless design, advanced technology and unmatched quality. Made for every moment that matters.</p>
+    <a class="gold-button" href="#collection">Explore Collection <b>→</b></a>
+    <div class="perks"><div><b>♢</b><strong>Premium Quality</strong><small>Carefully selected</small></div><div><b>⇢</b><strong>Fast Delivery</strong><small>Across India</small></div><div><b>◇</b><strong>1 Year Warranty</strong><small>Selected watches</small></div></div>
+  </div>
+  <div class="hero-product"><img src="assets/watch-hero.jpg" alt="Black and gold luxury chronograph wristwatch"><span class="product-stamp">TIMELESS<br><i>ELEGANCE</i></span></div>
+  <div class="scroll-note">CRAFTED FOR YOUR MOMENTS <span>↓</span></div>
+</section>
+<section class="collection" id="collection">
+  <div class="section-heading"><p class="eyebrow">THE TIMESTYLE EDIT</p><h2>Popular <em>Watches</em></h2><p>Find the watch that speaks your style.</p></div>
+  <div class="products">
+    <article class="product-card"><div class="watch-placeholder silver">◷</div><p class="product-type">CLASSIC COLLECTION</p><h3>Silver Classic</h3><p class="price">₹ 4,999</p><button data-watch="Silver Classic">Book This Watch</button></article>
+    <article class="product-card featured"><span class="popular-tag">POPULAR</span><div class="watch-placeholder gold-watch">◷</div><p class="product-type">SIGNATURE COLLECTION</p><h3>Midnight Chronograph</h3><p class="price">₹ 8,499</p><button data-watch="Midnight Chronograph">Book This Watch</button></article>
+    <article class="product-card"><div class="watch-placeholder blue">◷</div><p class="product-type">EVERYDAY COLLECTION</p><h3>Ocean Blue</h3><p class="price">₹ 5,799</p><button data-watch="Ocean Blue">Book This Watch</button></article>
+  </div>
+</section>
+<section class="about" id="about">
+ <div class="about-image"><img src="assets/watch-hero.jpg" alt="TimeStyle luxury watch detail"></div>
+ <div class="about-copy"><p class="eyebrow">OUR PHILOSOPHY</p><h2>Time is precious.<br><em>Wear it well.</em></h2><p>At TimeStyle, a watch is more than a timekeeper — it's a statement. We bring together timeless design, everyday comfort and a premium look to help you make every second count.</p><div class="about-points"><span>✓ Thoughtful design</span><span>✓ Quality-first selection</span><span>✓ Friendly customer support</span></div><a class="outline-button" href="#booking">Find Your Watch →</a></div>
+</section>
+<section class="booking-area" id="booking">
+ <div class="booking-intro"><p class="eyebrow">MAKE IT YOURS</p><h2>Book Your Favourite <em>Watch</em></h2><p>Share your details and the watch you love. Our team can follow up to confirm availability.</p><div class="contact-line">✉ &nbsp; support@timestyle.example</div></div>
+ <form id="bookingForm" class="form-card"><div class="form-grid"><label>Full name<input name="name" required placeholder="Enter your name"></label><label>Phone number<input name="phone" required placeholder="+91"></label><label class="wide">Email address<input type="email" name="email" required placeholder="you@example.com"></label><label class="wide">Choose a watch<select id="watchChoice" name="watch"><option>Midnight Chronograph</option><option>Silver Classic</option><option>Ocean Blue</option></select></label><label class="wide">Message (optional)<textarea name="message" rows="3" placeholder="Any preferences?"></textarea></label></div><button class="gold-button submit" type="submit">Submit Booking <b>→</b></button><small class="form-note">Demo only: booking details are not saved to a server yet.</small></form>
+</section>
+<section class="login-area" id="login"><div><p class="eyebrow">YOUR TIMESTYLE</p><h2>Welcome <em>Back</em></h2><p>Sign-in design preview. Real account security needs a backend.</p></div><form id="loginForm" class="login-form"><label>Email address<input type="email" required placeholder="you@example.com"></label><label>Password<input type="password" required placeholder="Enter password"></label><button class="gold-button submit" type="submit">Login →</button></form></section>
+</main>
+<footer id="contact"><div class="footer-grid"><a class="brand" href="#home"><span class="brand-icon">◷</span><span><b>Pranith Time<span>Style</span></b><small>Luxury Watches</small></span></a><div><h3>Contact Us</h3><p>☎ &nbsp; +91 7793960491</p><p>✉ &nbsp; pranithkommula491@gmail.com</p><p>⌖ &nbsp; India</p></div><div><h3>Quick Links</h3><p><a href="#home">Home</a></p><p><a href="#about">About</a></p><p><a href="#booking">Booking</a></p><p><a href="#contact">Contact</a></p></div><div><h3>Follow Us</h3><p><a href="https://www.instagram.com/bicky_nani_021/" target="_blank" rel="noopener">◎ bicky_nani_021</a></p><p>@bicky_nani_021</p></div></div><div class="footer-bottom"><span>© <span id="year"></span> TimeStyle. All rights reserved.</span><span>Time is Precious. Wear It Well.</span></div></footer>
+<div id="toast" role="status" class="toast"></div><script src="script.js"></script>
+</body></html>
